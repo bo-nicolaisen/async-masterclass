@@ -31,7 +31,7 @@ function waitforSeconds() {
         setTimeout(() => {
             console.log('timeout');
             resolve('resolved');
-        }, 8000 // tid i ms);
+        }, 8000); // tid i ms
 
     });
 }
